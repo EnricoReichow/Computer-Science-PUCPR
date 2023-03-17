@@ -1,4 +1,4 @@
-nomeUuario = str(input("Informe seu nome: "))
+nomeUsuario = str(input("Informe seu nome: "))
 
 cpfUsuario = str(input("Informe seu CPF: "))
 cpfFormatado = cpfUsuario[:3] + "." + cpfUsuario[3:6] + "." + cpfUsuario[6:9] + "-" + cpfUsuario[9:] 
@@ -12,7 +12,7 @@ print("\n")
 print("-------------------")
 print("\n")
 
-print("Olá " + nomeUuario + " seja bem vindo!")
+print("Olá " + nomeUsuario + " seja bem vindo!")
 print("Seu CPF cadastrado é: " + cpfFormatado)
 print("Seu telefone cadastrado é: " + telefoneFormatado)
 print("Você pode cursar nossa faculdade ja que nasceu no ano de " + str(anoDeNascimentoUsuario))
