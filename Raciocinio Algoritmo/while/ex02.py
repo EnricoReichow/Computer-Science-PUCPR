@@ -3,7 +3,7 @@
 
 nota = 0
 
-while nota != 7:
+while nota <= 7:
     nota = int(input("Digite uma nota válida para passar de ano: "))
 
     if nota >= 7:
