@@ -1,3 +1,5 @@
+# Escreva um algoritmo que dado o PdL (Pontos de Liga) de um jogador, informe a categoria a qual ele pertence
+
 pdl = int(input("Digite seu PDL: "))
 
 if pdl <= 999:

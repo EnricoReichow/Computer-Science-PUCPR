@@ -1,3 +1,5 @@
+# Crie um algoritmo que calcula o IMC e imprime o resultado
+
 pesoUsuario = float(input("Qual seu peso: "))
 alturaUsuario = float(input("Qual sua altura: "))
 

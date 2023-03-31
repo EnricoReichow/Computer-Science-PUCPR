@@ -1,3 +1,5 @@
+# Leia a idade do usuário e imprima se ele pode tirar a carteira de habilitação
+
 idade = int(input("Qual sua idade? "))
 
 if idade >= 18:

@@ -1,3 +1,5 @@
+# Leia a média de um estudante e imprima se ele foi aprovado
+
 print("Vamos calcular a média de uma matéria sua")
 materiaEstudada = str(input("Qual a matéria que vamos calcular a média e dar o resultado? "))
 

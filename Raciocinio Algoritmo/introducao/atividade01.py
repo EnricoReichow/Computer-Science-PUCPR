@@ -1,3 +1,11 @@
+# Crie um algoritmo que recebe quatro informações e armazena em
+# Variáveis:
+# - Nome
+# - CPF
+# - Telefone
+# - Ano de Nascimento.
+# Em seguida, imprima na tela esses valores formatados.
+
 nomeUsuario = str(input("Informe seu nome: "))
 
 cpfUsuario = str(input("Informe seu CPF: "))

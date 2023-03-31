@@ -1,3 +1,5 @@
+# Calcular sua idade em meses
+
 idade = int(input("Digite sua idade: "))
 
 idadeMeses = idade * 12

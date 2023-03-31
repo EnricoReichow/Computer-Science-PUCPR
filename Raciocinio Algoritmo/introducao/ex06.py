@@ -1,3 +1,5 @@
+# Calcular preço de venda para produto por quilo
+
 valorDaGramaProduto = float(input("Digite o valor da grama do produto: "))
 peso = float(input("Digite o peso do produto em Kg: "))
 
