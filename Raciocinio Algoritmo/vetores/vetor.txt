@@ -1,0 +1,4 @@
+Vetor é um conjunto de elementos de mesma caracteristica e tipo lógico (int, bool, string)
+
+sintaxe: numeros = {7, 8, 9, 3, 5}
+
