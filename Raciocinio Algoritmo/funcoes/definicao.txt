@@ -1,0 +1,6 @@
+definindo funções em python 
+def nomeDaFuncao(parametros):
+    codigo aqui...
+    return algumValor
+
+parametros e return são opcioniais
