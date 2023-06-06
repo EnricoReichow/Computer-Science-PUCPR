@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -37.58, "left": -96.37, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -31.57,
+      "left": 40.16,
+      "attrs": { "temperature": "8.1", "humidity": "80.5" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": 206.23,
+      "left": -171,
+      "attrs": { "volume": "0.1" }
+    },
+    { "type": "board-ssd1306", "id": "oled1", "top": -14.37, "left": -232.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "dht1:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [ "dht1:SDA", "esp:D15", "green", [ "v0" ] ],
+    [ "dht1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "bz1:1", "esp:D4", "green", [ "v44.06", "h343.61", "v-264.51" ] ],
+    [ "bz1:2", "esp:GND.1", "green", [ "v29.43", "h318.5", "v-174.92", "h1.09", "v-44.64" ] ],
+    [ "oled1:SCL", "esp:D22", "green", [ "v-87.69", "h204.63", "v17.24" ] ],
+    [ "oled1:SDA", "esp:D21", "green", [ "v-77.06", "h206.41", "v0.95", "h-7.14", "v97.62" ] ],
+    [
+      "oled1:GND",
+      "esp:GND.1",
+      "black",
+      [ "v-42.2", "h-71", "v163.61", "h-2.47", "v77.71", "h305.4", "v-63.61" ]
+    ],
+    [ "oled1:VCC", "esp:3V3", "red", [ "v-35.52", "h-65.61", "v222.17", "h278.16", "v-44.43" ] ]
+  ],
+  "dependencies": {}
+}
