@@ -1,0 +1,205 @@
+.container {
+    display: flex;
+    padding: 0px;
+}
+
+nav {
+    background-color:rgb(122 163 161);
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+
+nav ul li {
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    border-top: 2px solid black;
+}
+
+footer p {
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    max-height: 200px;
+    border: 1px solid darkcyan;
+    border-radius: 50%;
+}
+
+.section-images {
+    display: flex; 
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    font-size: 17px;
+    font-family: 'sans-serif';
+    line-height: 2;
+    color: #666;
+    text-align: justify;
+}
+
+section {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
+
+
+/* nosso css */
+
+html {
+    scroll-behavior: smooth;
+    text-decoration: none;
+    padding-left: 0%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+.paragrafos-historia {
+    text-align: justify;
+    text-decoration: none;
+    width: 90%;
+    font-size: 25px;
+    line-height: 2
+}
+
+a {
+    text-decoration: none;
+}
+
+#saiba-mais:link{
+    color: #666;
+}
+
+#saiba-mais:visited{
+    color: #666;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#two-sides-prim {
+    display: flex;
+    flex-direction: row;
+}
+
+#two-sides-segu {
+    display: flex;
+    flex-direction: row;
+}
+
+#two-sides-terc {
+    display: flex;
+    flex-direction: row;
+}
+
+#two-sides-quar {
+    display: flex;
+    flex-direction: row;
+}
+
+#two-sides-quin {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+img:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+#paragrafo-prefeitos {
+    /* width: 90%; */
+    width: 800px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 2
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px; 
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: rgb(197, 255, 207);;
+    color: rgb(0, 0, 0);
+}
+
+#saiba-mais:hover{
+    color: rgb(2, 148, 26);;
+}
+
+.prefeitura-curitiba {
+    width: 400px;
+    height: 300px;
+    
+}
+
+#two-sides-quin {
+    gap: 200px;
+}
+
+li {
+    font-family: 'Times New Roman', Times, serif;
+}

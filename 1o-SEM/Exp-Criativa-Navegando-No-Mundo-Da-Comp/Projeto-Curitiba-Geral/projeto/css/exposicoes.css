@@ -1,0 +1,43 @@
+
+
+.exposicoes__Header h1{
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.exposicoes__cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.exposicoes__card{
+    text-align: center;
+    display: flex;
+}
+.exposicoes__card div{
+    max-width: 50%;    
+}
+
+#exposicao__importancia{
+
+    text-align: center;
+
+}
+
+#exposicoes__cartaz li{
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+
+#exposicoes__cartaz li:hover{
+    transition: 1s;
+    scale: 105%;
+    background-color:rgba(122, 163, 161, 0.158) ;
+}

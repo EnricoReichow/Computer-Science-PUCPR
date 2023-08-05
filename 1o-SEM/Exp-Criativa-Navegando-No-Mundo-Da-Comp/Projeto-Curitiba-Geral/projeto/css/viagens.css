@@ -1,0 +1,161 @@
+.containerInt {
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  padding: 0px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 40px;
+    margin-left: 100px;
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    width: calc(70% - 5px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card .infos {
+  text-align: justify;
+
+}
+
+.card .infos h3 {
+  color: #474747;
+  font-size: 20px;
+  font-family: Verdana;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+  color: #666;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: Verdana;
+  color: rgb(2, 116, 36);
+}
+
+p {
+  line-height: 2;
+  font-size: 17px;
+  color: #666;
+}
+
+i {
+  color: rgb(2, 116, 36);
+}
+
+.containerInt li {
+  list-style: square;
+  line-height: 2;
+  font-size: 17px;
+}
+
+a {
+  text-decoration-color: rgb(2, 116, 36);
+  color: rgb(2, 116, 36);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+
+/* ADEQUAÇÃO */
+
+nav {
+  background-color:rgb(122 163 161);
+  padding: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+}
+
+nav ul li {
+  padding: 5px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+footer {
+  text-align: center;
+  color: black;
+  border-top: 2px solid black;
+}
+
+footer p {
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  max-height: 200px;
+  border: 1px solid darkcyan;
+  border-radius: 50%;
+}
+
+.section-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  margin: 0;
+  font-size: 17px;
+  font-family: 'sans-serif';
+  line-height: 2;
+  color: #666;
+  text-align: justify;
+}
+
+section {
+  padding: 10px;
+}
+
+img:hover {
+  filter: grayscale(100%);
+}

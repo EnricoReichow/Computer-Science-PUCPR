@@ -1,0 +1,93 @@
+nav {
+  background-color:rgb(122 163 161);
+  padding: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+}
+
+nav ul li {
+  padding: 5px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #666;
+  line-height: 2;
+  text-align: justify;
+}
+
+.titulo {
+  color:#666;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+td {
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+
+td img {
+  width: 300px;
+  height: 200px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Verdana;
+}
+
+.titulo, .endereco, .horario, .telefone {
+  font-weight: bold;
+}
+
+nav {
+  background-color:rgb(122 163 161);
+  padding: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+}
+
+nav ul li {
+  padding: 5px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+

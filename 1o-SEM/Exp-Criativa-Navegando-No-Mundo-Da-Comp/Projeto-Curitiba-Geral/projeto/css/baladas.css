@@ -1,0 +1,42 @@
+
+.level,
+.shed,
+.vibe,
+.yard,
+.mais55,
+.rodeo {
+display: flex;
+align-items: center;
+}
+
+img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-style: verdana;
+}
+
+p {
+    position: relative;
+    left: 20%;
+    color: #666;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    max-width: 710px;
+    text-align: center;
+    line-height: 2;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    font-style: sans-serif;
+    background-color: rgb(122 163 161);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}

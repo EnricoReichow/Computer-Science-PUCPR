@@ -1,0 +1,146 @@
+.container {
+    display: flex;
+    padding: 0px;
+}
+
+nav {
+    background-color:rgb(122 163 161);
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+
+nav ul li {
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    border-top: 2px solid black;
+}
+
+footer p {
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    max-height: 200px;
+    border: 1px solid darkcyan;
+    border-radius: 50%;
+}
+
+.section-images {
+    display: flex; 
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    font-size: 17px;
+    font-family: 'sans-serif';
+    line-height: 2;
+    color: #666;
+    text-align: justify;
+}
+
+section {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+body{
+    background-color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    line-height: 2;
+    text-align: justify;
+    color: #666;
+    
+}
+
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font: size 30px;
+    color: black;
+    text-align: center;
+    text-indent: 30px;
+}
+
+ol{
+    padding-left: 35%;
+    padding-right: 35%;
+    list-style-type: circle;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+}
+
+img {
+    text-align: center;
+    border-radius: 20%;
+
+}
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #666;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 2;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+a{
+    color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+a:hover{
+    color:black;
+}
+
+

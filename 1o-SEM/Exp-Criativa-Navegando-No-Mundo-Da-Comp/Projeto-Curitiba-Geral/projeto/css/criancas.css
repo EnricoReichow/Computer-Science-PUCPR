@@ -1,0 +1,56 @@
+
+h2{
+    color: white;
+    background-color: #666;
+    padding: 10px;
+}
+  
+img:hover {
+    filter: brightness(70%);
+}
+  
+th {
+    border: 1px solid #666; 
+    background-color: white;
+    color: #666;
+    text-align: center;
+    letter-spacing: 1px;
+}
+  
+td {
+    border: 1px solid white;
+    background-color: #666;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+  
+a{
+    text-decoration: underline;
+    color: black;
+}
+  
+ul{
+    list-style-type: square;
+}
+
+.section-images {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+.centraliza{
+    text-align: center;
+}
+
+.section-p{
+    display: flex;
+    padding: 20px;
+}
+
+.tabela{
+    padding-left: 425px;
+}
