@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .container form{
+    display: flex;
+    flex-direction: column;
+    gap: 200px
+}
+
+body div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */

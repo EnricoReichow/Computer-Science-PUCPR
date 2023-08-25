@@ -1,0 +1,40 @@
+.input-boxes {
+    width: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 3px;
+    border-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    /* falta ajeita a borda */
+}
+
+input:focus {
+    background-color: #3a03ff;
+}
+
+body form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: #088A68;
+    border: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+.btn:hover{
+    background-color: #04B486;
+}
+
