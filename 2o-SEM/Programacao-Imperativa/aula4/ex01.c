@@ -1,21 +1,27 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
   int a, b;
-  printf("Digite um número: ");
+  printf("Digite um numero: ");
   scanf("%d", &a);
-  printf("Digite outro número: ");
+  printf("Digite outro numero: ");
   scanf("%d", &b);
 
-  if (a > b) {
-    printf("Ordem CRESCENTE:\n");
-    printf("%d\n", a);
-    printf("%d\n", b);
-  } else if (b > a) {
+  if (a > b)
+  {
     printf("Ordem CRESCENTE:\n");
     printf("%d\n", b);
     printf("%d\n", a);
-  } else {
-    printf("Os valores são iguais!");
+  }
+  else if (b > a)
+  {
+    printf("Ordem CRESCENTE:\n");
+    printf("%d\n", a);
+    printf("%d\n", b);
+  }
+  else
+  {
+    printf("Os valores sao iguais!");
   }
 }

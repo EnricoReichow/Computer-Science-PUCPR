@@ -1,0 +1,61 @@
+Log de Vendas:
+[0] 1002 2 3
+[1] 1004 5 1
+[2] 1003 6 4
+[3] 1001 8 5
+[4] 1005 4 1
+[5] 1004 1 1
+[6] 1002 6 8
+[7] 1003 9 1
+[8] 1001 8 2
+[9] 1005 7 1
+[10] 1005 6 3
+[11] 1002 3 1
+[12] 1003 2 7
+[13] 1001 1 7
+[14] 1004 4 7
+[15] 1005 5 5
+[16] 1003 3 1
+[17] 1002 10 9
+[18] 1001 10 9
+[19] 1004 10 8
+
+Catalogo de Produtos:
+[0] 1 40.00 Tornozeleira
+[1] 2 75.00 Camiseta-Térmica
+[2] 3 850.00 Tênis-Corrida
+[3] 4 150.00 Shorts-Térmico
+[4] 5 412.87 Barra
+[5] 6 15.00 Shakeira
+[6] 7 25.00 Elástico
+[7] 8 359.00 Raquete-Tênis
+[8] 9 550.00 Raquete-Beach-Tênis
+[9] 10 1998.08 Camiseta-Vasco
+
+Lista de Vendedores:
+[0] 1001 Adailson
+[1] 1002 Eunastácio
+[2] 1003 Márcia
+[3] 1004 Tião
+[4] 1005 Roberto-Dinamite
+
+Total geral vendido: 61710.30
+
+Total de vendas de cada produto:
+Produto 1 (Tornozeleira): R$320.00
+Produto 2 (Camiseta-Térmica): R$750.00
+Produto 3 (Tênis-Corrida): R$1700.00
+Produto 4 (Shorts-Térmico): R$1200.00
+Produto 5 (Barra): R$2477.22
+Produto 6 (Shakeira): R$225.00
+Produto 7 (Elástico): R$25.00
+Produto 8 (Raquete-Tênis): R$2513.00
+Produto 9 (Raquete-Beach-Tênis): R$550.00
+Produto 10 (Camiseta-Vasco): R$51950.08
+
+Total de vendas de cada vendedor:
+Vendedor 1001 (Adailson): R$20775.72
+Vendedor 1002 (Eunastácio): R$19177.72
+Vendedor 1003 (Márcia): R$1985.00
+Vendedor 1004 (Tião): R$17487.51
+Vendedor 1005 (Roberto-Dinamite): R$2284.35

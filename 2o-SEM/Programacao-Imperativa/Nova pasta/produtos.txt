@@ -1,0 +1,11 @@
+10
+1 40.00 Tornozeleira
+2 75.00 Camiseta-Térmica
+3 850.00 Tênis-Corrida
+4 150.00 Shorts-Térmico
+5 412.87 Barra
+6 15.00 Shakeira
+7 25.00 Elástico
+8 359.00 Raquete-Tênis
+9 550.00 Raquete-Beach-Tênis
+10 1998.08 Camiseta-Vasco
